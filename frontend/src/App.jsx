@@ -115,6 +115,13 @@ modalPriceLabel: "Modal Price",
 maxPriceLabel: "Max Price",
 sourceLabel: "Source",
 marketPriceWarning: "These are reported prices, not future predictions. Verify the price units and dates before relying on them.",
+
+aiChatbot: "AI Chatbot",
+aiChatTitle: "FarmTwin AI",
+aiChatDescription: "Your intelligent farming companion",
+aiChatHelp: "Ask questions about crops, soil, irrigation, pests, and farming practices.",
+openChatbot: "Open Chatbot",
+
   },
 
   Hindi: {
@@ -222,6 +229,11 @@ modalPriceLabel: "प्रचलित मूल्य",
 maxPriceLabel: "अधिकतम मूल्य",
 sourceLabel: "स्रोत",
 marketPriceWarning: "ये दर्ज किए गए मूल्य हैं, भविष्य के अनुमान नहीं। इन पर भरोसा करने से पहले मूल्य की इकाई और तारीख जाँच लें।",
+aiChatbot: "AI चैटबॉट",
+aiChatTitle: "FarmTwin AI",
+aiChatDescription: "आपका स्मार्ट खेती सहायक",
+aiChatHelp: "फसलों, मिट्टी, सिंचाई, कीटों और खेती के तरीकों के बारे में सवाल पूछें।",
+openChatbot: "चैटबॉट खोलें",
   },
 
   Kannada: {
@@ -329,6 +341,11 @@ modalPriceLabel: "ಮಾದರಿ ಬೆಲೆ",
 maxPriceLabel: "ಗರಿಷ್ಠ ಬೆಲೆ",
 sourceLabel: "ಮೂಲ",
 marketPriceWarning: "ಇವು ವರದಿಯಾದ ಬೆಲೆಗಳು, ಭವಿಷ್ಯದ ಬೆಲೆ ಮುನ್ಸೂಚನೆಗಳಲ್ಲ. ಅವುಗಳನ್ನು ಬಳಸುವ ಮೊದಲು ಬೆಲೆಯ ಘಟಕ ಮತ್ತು ದಿನಾಂಕವನ್ನು ಪರಿಶೀಲಿಸಿ.",
+aiChatbot: "AI ಚಾಟ್‌ಬಾಟ್",
+aiChatTitle: "FarmTwin AI",
+aiChatDescription: "ನಿಮ್ಮ ಬುದ್ಧಿವಂತ ಕೃಷಿ ಸಹಾಯಕ",
+aiChatHelp: "ಬೆಳೆಗಳು, ಮಣ್ಣು, ನೀರಾವರಿ, ಕೀಟಗಳು ಮತ್ತು ಕೃಷಿ ವಿಧಾನಗಳ ಬಗ್ಗೆ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಿ.",
+openChatbot: "ಚಾಟ್‌ಬಾಟ್ ತೆರೆಯಿರಿ",
   },
 
   Tamil: {
@@ -436,6 +453,11 @@ modalPriceLabel: "சராசரி வர்த்தக விலை",
 maxPriceLabel: "அதிகபட்ச விலை",
 sourceLabel: "மூலம்",
 marketPriceWarning: "இவை பதிவுசெய்யப்பட்ட விலைகள்; எதிர்கால விலை கணிப்புகள் அல்ல. பயன்படுத்துவதற்கு முன் விலை அலகையும் தேதியையும் சரிபார்க்கவும்.",
+aiChatbot: "AI சாட்பாட்",
+aiChatTitle: "FarmTwin AI",
+aiChatDescription: "உங்கள் புத்திசாலித்தனமான விவசாய உதவியாளர்",
+aiChatHelp: "பயிர்கள், மண், நீர்ப்பாசனம், பூச்சிகள் மற்றும் விவசாய முறைகள் பற்றி கேள்விகள் கேளுங்கள்.",
+openChatbot: "சாட்பாட்டைத் திறக்கவும்",
   },
 
   Telugu: {
@@ -543,6 +565,11 @@ modalPriceLabel: "మోడల్ ధర",
 maxPriceLabel: "గరిష్ఠ ధర",
 sourceLabel: "మూలం",
 marketPriceWarning: "ఇవి నివేదించిన ధరలు మాత్రమే, భవిష్యత్ ధర అంచనాలు కావు. వీటిని ఉపయోగించే ముందు ధర యూనిట్ మరియు తేదీని తనిఖీ చేయండి.",
+aiChatbot: "AI చాట్‌బాట్",
+aiChatTitle: "FarmTwin AI",
+aiChatDescription: "మీ తెలివైన వ్యవసాయ సహాయకుడు",
+aiChatHelp: "పంటలు, నేల, నీటిపారుదల, తెగుళ్లు మరియు వ్యవసాయ పద్ధతుల గురించి ప్రశ్నలు అడగండి.",
+openChatbot: "చాట్‌బాట్ తెరవండి",
   },
 
   Malayalam: {
@@ -650,6 +677,11 @@ modalPriceLabel: "മോഡൽ വില",
 maxPriceLabel: "പരമാവധി വില",
 sourceLabel: "ഉറവിടം",
 marketPriceWarning: "ഇവ റിപ്പോർട്ട് ചെയ്ത വിലകളാണ്, ഭാവിയിലെ വില പ്രവചനങ്ങളല്ല. ആശ്രയിക്കുന്നതിന് മുമ്പ് വിലയുടെ യൂണിറ്റും തീയതിയും പരിശോധിക്കുക.",
+aiChatbot: "AI ചാറ്റ്ബോട്ട്",
+aiChatTitle: "FarmTwin AI",
+aiChatDescription: "നിങ്ങളുടെ ബുദ്ധിമാനായ കാർഷിക സഹായി",
+aiChatHelp: "വിളകൾ, മണ്ണ്, ജലസേചനം, കീടങ്ങൾ, കൃഷിരീതികൾ എന്നിവയെക്കുറിച്ച് ചോദ്യങ്ങൾ ചോദിക്കൂ.",
+openChatbot: "ചാറ്റ്ബോട്ട് തുറക്കുക",
   }
 };
 
@@ -662,6 +694,7 @@ const features = [
   'Crop Recommendation',
   'Market Prediction',
   'Notifications',
+  'AI Chatbot',
   'Voice Assistant',
   'Profile & Settings',
 
@@ -745,6 +778,136 @@ function toggleTheme() {
   const [marketLoading, setMarketLoading] = useState(false);
   const [marketError, setMarketError] = useState('');
   const [marketCommodity, setMarketCommodity] = useState('Tomato');
+
+  // AI Chatbot state
+const [chatInput, setChatInput] = useState('');
+const [chatMessages, setChatMessages] = useState([]);
+const [chatLoading, setChatLoading] = useState(false);
+const [chatError, setChatError] = useState('');
+
+async function sendChatMessage(event) {
+  event.preventDefault();
+
+  const message = chatInput.trim();
+  if (!message || chatLoading) return;
+
+  setChatMessages((previous) => [
+    ...previous,
+    { role: 'user', content: message },
+  ]);
+
+  setChatInput('');
+  setChatError('');
+  setChatLoading(true);
+
+  try {
+    const response = await fetch(
+      'http://127.0.0.1:8000/api/farming-chat',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          message,
+          module: 'AI Chatbot',
+          context: {
+            crop: 'Tomato',
+            location: weather?.location || 'Bengaluru',
+            temperature_c: weather?.temperature_c ?? null,
+          },
+        }),
+      }
+    );
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(
+        typeof data.detail === 'string'
+          ? data.detail
+          : 'The chatbot could not answer. Please try again.'
+      );
+    }
+
+    setChatMessages((previous) => [
+      ...previous,
+      { role: 'assistant', content: data.answer },
+    ]);
+  } catch (error) {
+    setChatError(
+      error.message || 'Could not connect to the chatbot.'
+    );
+  } finally {
+    setChatLoading(false);
+  }
+}
+
+
+
+  async function sendChatMessage(event) {
+    event.preventDefault();
+
+    const message = chatInput.trim();
+    if (!message || chatLoading) return;
+
+    setChatMessages((previous) => [
+      ...previous,
+      { role: 'user', content: message },
+    ]);
+    setChatInput('');
+    setChatError('');
+    setChatLoading(true);
+
+    try {
+      const response = await fetch(
+        'http://127.0.0.1:8000/api/farming-chat',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            message,
+            module: activePage,
+            context: {
+              crop: 'Tomato',
+              location: weather?.location || 'Bengaluru',
+              temperature_c: weather?.temperature_c ?? null,
+              humidity_percent: weather?.humidity_percent ?? null,
+              soil_type: recommendationInput.soil_type,
+              soil_ph: Number(recommendationInput.soil_ph),
+              soil_moisture: Number(
+                recommendationInput.soil_moisture
+              ),
+            },
+          }),
+        }
+      );
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(
+          typeof data.detail === 'string'
+            ? data.detail
+            : 'The chatbot could not answer. Please try again.'
+        );
+      }
+
+      setChatMessages((previous) => [
+        ...previous,
+        { role: 'assistant', content: data.answer },
+      ]);
+    } catch (error) {
+      setChatError(
+        error.message || 'Could not connect to the chatbot.'
+      );
+    } finally {
+      setChatLoading(false);
+    }
+  }
+
 
   useEffect(() => {
     fetch('http://127.0.0.1:8000/api/status')
@@ -1003,11 +1166,12 @@ if (!authToken || !authUser) {
         'Weather Analysis': 'weatherAnalysis',
         'Crop Recommendation': 'cropRecommendation',
         'Market Prediction': 'marketPrediction',
+        'AI Chatbot': 'aiChatbot',
         Notifications: 'notifications',
         'Voice Assistant': 'voiceAssistant',
         'Profile & Settings': 'profileSettings',
       })[feature] || feature
-    ]}
+] || feature}
   </button>
 ))}
 
@@ -1034,6 +1198,7 @@ if (!authToken || !authUser) {
       'Weather Analysis': 'weatherAnalysis',
       'Crop Recommendation': 'cropRecommendation',
       'Market Prediction': 'marketPrediction',
+      'AI Chatbot': 'aiChatbot',
       Notifications: 'notifications',
       'Voice Assistant': 'voiceAssistant',
       'Profile & Settings': 'profileSettings',
@@ -1142,6 +1307,24 @@ if (!authToken || !authUser) {
         </p>
       </article>
     </section>
+
+    <section className="content-card chatbot-shortcut">
+      <div className="chatbot-shortcut-icon">🤖</div>
+
+      <div className="chatbot-shortcut-content">
+        <h2>{t.aiChatTitle}</h2>
+        <p>{t.aiChatHelp}</p>
+      </div>
+
+      <button
+        type="button"
+        className="new-chat-btn"
+        onClick={() => setActivePage('AI Chatbot')}
+      >
+        {t.openChatbot} →
+      </button>
+    </section>
+
 
     <section className="content-card">
       <h2>{t.farmOverview}</h2>
@@ -1666,6 +1849,189 @@ if (!authToken || !authUser) {
 )}
 
 
+{activePage === 'AI Chatbot' && (
+  <section className="content-card ai-chat-page">
+    <div className="ai-chat-header">
+      <div className="ai-chat-brand">
+        <div className="ai-chat-logo">✦</div>
+        <div>
+         <h2>{t.aiChatTitle}</h2>
+<p>{t.aiChatDescription}</p>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        className="ai-new-chat"
+        onClick={() => {
+          setChatMessages([]);
+          setChatInput('');
+          setChatError('');
+        }}
+      >
+        <span>＋</span> New Chat
+      </button>
+    </div>
+
+    <div className="ai-chat-intro">
+      <span className="ai-chat-eyebrow">YOUR FARMING ASSISTANT</span>
+      <h3>How can I help your farm today?</h3>
+      <p>
+        Ask a question, explore an idea, or get help with your
+        farming decisions.
+      </p>
+    </div>
+
+    <div className="ai-chat-conversation">
+      {chatMessages.length === 0 && (
+        <div className="ai-welcome">
+          <div className="ai-welcome-icon">🌱</div>
+          <h3>Let's grow something great.</h3>
+          <p>
+            Start with one of these questions or type your own
+            below.
+          </p>
+
+          <div className="ai-suggestions">
+            <button
+              type="button"
+              onClick={() =>
+                setChatInput(
+                  'How can I improve tomato plant growth?'
+                )
+              }
+            >
+              <span>🌿</span>
+              <span>
+                <strong>Improve crop growth</strong>
+                <small>Tips for healthier plants</small>
+              </span>
+              <span className="ai-suggestion-arrow">↗</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() =>
+                setChatInput(
+                  'How often should I water my crops?'
+                )
+              }
+            >
+              <span>💧</span>
+              <span>
+                <strong>Watering guidance</strong>
+                <small>Understand irrigation needs</small>
+              </span>
+              <span className="ai-suggestion-arrow">↗</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() =>
+                setChatInput(
+                  'How can I identify and prevent crop pests?'
+                )
+              }
+            >
+              <span>🛡️</span>
+              <span>
+                <strong>Manage crop pests</strong>
+                <small>Explore prevention methods</small>
+              </span>
+              <span className="ai-suggestion-arrow">↗</span>
+            </button>
+          </div>
+        </div>
+      )}
+
+      {chatMessages.map((item, index) => (
+        <div
+          key={index}
+          className={`ai-message-row ${
+            item.role === 'user'
+              ? 'ai-user-row'
+              : 'ai-assistant-row'
+          }`}
+        >
+          {item.role !== 'user' && (
+            <div className="ai-message-avatar">✦</div>
+          )}
+
+          <div
+            className={`ai-message-bubble ${
+              item.role === 'user'
+                ? 'ai-user-bubble'
+                : 'ai-assistant-bubble'
+            }`}
+          >
+            <div className="ai-message-label">
+              {item.role === 'user' ? 'You' : 'FarmTwin AI'}
+            </div>
+            <div className="ai-message-text">
+              {item.content}
+            </div>
+          </div>
+        </div>
+      ))}
+
+      {chatLoading && (
+        <div className="ai-message-row ai-assistant-row">
+          <div className="ai-message-avatar">✦</div>
+          <div className="ai-message-bubble ai-assistant-bubble">
+            <div className="ai-message-label">FarmTwin AI</div>
+            <div className="ai-thinking">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span className="ai-thinking-text">
+                Thinking...
+              </span>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {chatError && (
+        <div className="ai-chat-error" role="alert">
+          {chatError}
+        </div>
+      )}
+    </div>
+
+    <form
+      className="ai-chat-form"
+      onSubmit={sendChatMessage}
+    >
+      <input
+        type="text"
+        value={chatInput}
+        onChange={(event) =>
+          setChatInput(event.target.value)
+        }
+        placeholder="Ask anything about your farm..."
+        aria-label="Farming question"
+        disabled={chatLoading}
+        required
+      />
+
+      <button
+        type="submit"
+        disabled={chatLoading || !chatInput.trim()}
+        aria-label="Send message"
+      >
+        {chatLoading ? '...' : '➤'}
+      </button>
+    </form>
+
+    <p className="ai-chat-disclaimer">
+      FarmTwin AI can make mistakes. Verify important farming
+      decisions with reliable agricultural guidance.
+    </p>
+  </section>
+)}
+
+
+
 {activePage === 'Profile & Settings' ? (
   <Profile
     user={authUser}
@@ -1700,7 +2066,10 @@ if (!authToken || !authUser) {
   activePage !== 'Crop Analysis' &&
   activePage !== 'Crop Recommendation' &&
   activePage !== 'Market Prediction' &&
-  activePage !== 'Notifications' ? (
+  activePage !== 'Notifications' &&
+  activePage !== 'AI Chatbot' &&
+  activePage !== 'Voice Assistant' ? (
+    
   <section className="content-card">
     <h2>{activePage}</h2>
     <p>

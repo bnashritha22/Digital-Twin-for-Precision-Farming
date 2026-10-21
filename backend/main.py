@@ -1,4 +1,5 @@
 
+
 import base64
 import os
 
@@ -10,6 +11,11 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from ultralytics import YOLO
 from auth_routes import router as auth_router
+from dotenv import load_dotenv
+from google import genai
+from groq import Groq
+load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
+
 
 
 # ---------------------------------------------------------
@@ -741,3 +747,98 @@ def detect_weeds(file: UploadFile = File(...)):
 
     finally:
         file.file.close()
+
+        
+class FarmingChatRequest(BaseModel):
+    message: str
+    module: str = "General"
+    context: dict | None = None
+
+
+
+@app.post("/api/farming-chat")
+def farming_chat(request: FarmingChatRequest):
+    if not request.message.strip():
+        raise HTTPException(
+            status_code=400,
+            detail="Please enter a farming question."
+        )
+
+    api_key = os.getenv("GROQ_API_KEY")
+
+    if not api_key:
+        raise HTTPException(
+            status_code=500,
+            detail="Groq API key is not configured. Check backend/.env."
+        )
+
+    prompt = f"""
+You are FarmTwin AI, an agricultural assistant for Indian farmers.
+
+Current FarmTwin module: {request.module}
+
+Available farm data:
+{request.context or "No farm data provided."}
+
+User question:
+{request.message}
+
+Instructions:
+- Answer farming questions clearly and practically.
+- Consider Indian farming conditions when relevant.
+- Use supplied farm data when relevant.
+- Never invent live weather readings, market prices, or measurements.
+- If information is missing, ask a follow-up question.
+- For crop diseases and pesticide advice, explain uncertainty
+  and recommend expert guidance when appropriate.
+- Use simple language and organized answers.
+"""
+
+    try:
+        from groq import Groq
+
+        client = Groq(api_key=api_key)
+
+        response = client.chat.completions.create(
+            model="openai/gpt-oss-20b",
+            messages=[
+                {
+                    "role": "system",
+                    "content": prompt
+                },
+                {
+                    "role": "user",
+                    "content": request.message
+                }
+            ],
+            temperature=0.5,
+            max_tokens=1000
+        )
+
+        answer = response.choices[0].message.content
+
+        if not answer:
+            raise HTTPException(
+                status_code=502,
+                detail="The AI returned an empty response."
+            )
+
+        return {
+            "answer": answer,
+            "module": request.module
+        }
+
+    except HTTPException:
+        raise
+
+    except Exception as exc:
+        print(
+            f"FarmTwin chatbot error: {type(exc).__name__}: {exc}",
+            flush=True
+        )
+        raise HTTPException(
+            status_code=502,
+            detail=f"Groq request failed: {type(exc).__name__}: {exc}"
+        )
+
+
