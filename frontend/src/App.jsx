@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import FarmTwin3D from './FarmTwin3D';
 import Notifications from './Notifications';
+import Auth from './Auth';
+import Profile from './Profile';
 
 
 const translations = {
@@ -669,6 +671,26 @@ const features = [
 
 function App() {
   const [activePage, setActivePage] = useState('Home');
+
+  const [authToken, setAuthToken] = useState(
+  () => localStorage.getItem('farmtwin_token') || ''
+);
+
+const [authUser, setAuthUser] = useState(() => {
+  try {
+    return JSON.parse(localStorage.getItem('farmtwin_user') || 'null');
+  } catch {
+    return null;
+  }
+});
+
+function handleLogin(token, user) {
+  localStorage.setItem('farmtwin_token', token);
+  localStorage.setItem('farmtwin_user', JSON.stringify(user));
+  setAuthToken(token);
+  setAuthUser(user);
+  setActivePage('Dashboard');
+}
   const [theme, setTheme] = useState(() => {
   return localStorage.getItem('farmtwin-theme') || 'light';
 });
@@ -919,7 +941,9 @@ async function getRecommendations(event) {
   }
 }
 
-
+if (!authToken || !authUser) {
+  return <Auth onLogin={handleLogin} />;
+}
   if (activePage === 'Home') {
     return (
       <main className="page">
@@ -1641,21 +1665,50 @@ async function getRecommendations(event) {
   <Notifications language={language} />
 )}
 
-{activePage !== 'Dashboard' &&
+
+{activePage === 'Profile & Settings' ? (
+  <Profile
+    user={authUser}
+    language={language}
+    setLanguage={setLanguage}
+    theme={theme}
+    toggleTheme={toggleTheme}
+    onLogout={async () => {
+      try {
+        if (authToken) {
+          await fetch('http://127.0.0.1:8000/api/auth/logout', {
+            method: 'POST',
+            headers: {
+              Authorization: `Bearer ${authToken}`,
+            },
+          });
+        }
+      } catch (error) {
+        console.error('Logout request failed:', error);
+      } finally {
+        localStorage.removeItem('farmtwin_token');
+        localStorage.removeItem('farmtwin_user');
+        setAuthToken('');
+        setAuthUser(null);
+        setActivePage('Home');
+      }
+    }}
+  />
+) : activePage !== 'Dashboard' &&
   activePage !== 'Digital Twin' &&
   activePage !== 'Weather Analysis' &&
   activePage !== 'Crop Analysis' &&
   activePage !== 'Crop Recommendation' &&
   activePage !== 'Market Prediction' &&
-  activePage !== 'Notifications' && (
-    <section className="content-card">
-      <h2>{activePage}</h2>
-      <p>
-        The {activePage.toLowerCase()} module will be
-        developed in a future step.
-      </p>
-    </section>
-  )}
+  activePage !== 'Notifications' ? (
+  <section className="content-card">
+    <h2>{activePage}</h2>
+    <p>
+      The {activePage.toLowerCase()} module will be
+      developed in a future step.
+    </p>
+  </section>
+) : null}
 
       </main>
     </div>

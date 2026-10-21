@@ -9,6 +9,7 @@ from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from ultralytics import YOLO
+from auth_routes import router as auth_router
 
 
 # ---------------------------------------------------------
@@ -16,6 +17,7 @@ from ultralytics import YOLO
 # ---------------------------------------------------------
 
 app = FastAPI(title="Digital Twin for Precision Farming")
+app.include_router(auth_router)
 
 app.add_middleware(
     CORSMiddleware,
