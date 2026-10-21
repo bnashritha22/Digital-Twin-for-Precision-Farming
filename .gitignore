@@ -45,3 +45,5 @@ backend/runs/
 
 # Test images (optional)
 backend/test_weed.jpg
+
+backend/farmtwin_users.db
