@@ -1,0 +1,137 @@
+
+.farm-twin-panel {
+  width: 100%;
+  overflow: hidden;
+}
+
+.farm-twin-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.farm-twin-heading h2 {
+  margin: 6px 0;
+}
+
+.farm-twin-heading p {
+  margin-top: 8px;
+}
+
+.farm-twin-eyebrow {
+  color: #568349;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.farm-live-badge {
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #e3f4dc;
+  color: #356b31;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.farm-canvas {
+  width: 100%;
+  height: 520px;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid #d5e2ce;
+  background: #dcebd6;
+}
+
+.farm-twin-help {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding: 14px 0;
+  font-size: 0.88rem;
+}
+
+.farm-twin-note {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .farm-canvas {
+    height: 360px;
+  }
+
+  .farm-twin-help {
+    gap: 10px;
+  }
+}
+
+.farm-canvas {
+  position: relative;
+}
+
+.farm-alert-overlay {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.farm-alert-label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 9px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.farm-alert-label span {
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.farm-canvas {
+  position: relative;
+}
+
+.farm-alert-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.farm-alert-tracked {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transform: translate(-50%, -100%);
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.farm-alert-tracked span {
+  font-size: 11px;
+  font-weight: 400;
+}
+

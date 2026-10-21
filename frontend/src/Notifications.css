@@ -1,0 +1,257 @@
+
+.notifications-page {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.notification-heading,
+.notification-toolbar,
+.notification-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.notification-heading h2 {
+  margin: 0 0 8px;
+}
+
+.notification-heading p {
+  margin: 0;
+  opacity: 0.8;
+}
+
+.notification-count {
+  white-space: nowrap;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #e7f5e9;
+  color: #216b36;
+  font-weight: 600;
+}
+
+.notification-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.notification-filters button,
+.notification-text-button,
+.notification-actions button,
+.notification-clear-button {
+  cursor: pointer;
+  font: inherit;
+}
+
+.notification-filters button {
+  padding: 9px 14px;
+  border: 1px solid #d7e2d8;
+  border-radius: 9px;
+  background: transparent;
+  color: inherit;
+}
+
+.notification-filters button.selected {
+  background: #246b3d;
+  color: white;
+  border-color: #246b3d;
+}
+
+.notification-text-button,
+.notification-actions button {
+  border: none;
+  background: none;
+  color: #287443;
+  font-weight: 600;
+}
+
+.notification-text-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.notification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.notification-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 18px;
+  border: 1px solid #dfe8df;
+  border-radius: 14px;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.notification-item.is-unread {
+  background: #f2faf3;
+  border-left: 4px solid #319451;
+}
+
+.notification-item.is-read {
+  background: transparent;
+}
+
+.notification-icon {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: #e4f2e5;
+  font-size: 23px;
+}
+
+.notification-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.notification-title-row h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.notification-dot {
+  width: 9px;
+  height: 9px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #319451;
+}
+
+.notification-type,
+.notification-time {
+  display: block;
+  margin-top: 7px;
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.notification-body p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.notification-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.notification-actions button {
+  padding: 0;
+}
+
+.notification-empty {
+  padding: 35px 15px;
+  text-align: center;
+}
+
+.notification-empty span {
+  font-size: 38px;
+}
+
+.notification-clear-button {
+  align-self: flex-start;
+  padding: 10px 14px;
+  border: 1px solid #e2b8b8;
+  border-radius: 9px;
+  background: transparent;
+  color: #b42323;
+}
+
+.notification-note {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* Dark mode */
+body.dark .notification-count,
+.dark .notification-count {
+  background: #203b2b;
+  color: #a7e3b5;
+}
+
+body.dark .notification-item,
+.dark .notification-item {
+  border-color: #39483e;
+}
+
+body.dark .notification-item.is-unread,
+.dark .notification-item.is-unread {
+  background: #202e25;
+  border-left-color: #58bd79;
+}
+
+body.dark .notification-item.is-read,
+.dark .notification-item.is-read {
+  background: #181f1b;
+}
+
+body.dark .notification-icon,
+.dark .notification-icon {
+  background: #2b4031;
+}
+
+body.dark .notification-filters button,
+.dark .notification-filters button {
+  border-color: #46554a;
+}
+
+body.dark .notification-filters button.selected,
+.dark .notification-filters button.selected {
+  background: #246b3d;
+  border-color: #398653;
+  color: #ffffff;
+}
+
+body.dark .notification-text-button,
+body.dark .notification-actions button,
+.dark .notification-text-button,
+.dark .notification-actions button {
+  color: #8fdaa5;
+}
+
+body.dark .notification-clear-button,
+.dark .notification-clear-button {
+  border-color: #784747;
+  color: #ff9999;
+}
+
+@media (max-width: 600px) {
+  .notification-heading,
+  .notification-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .notification-item {
+    padding: 13px;
+  }
+}
+/* Fix text visibility on light notification cards */
+.notification-item.is-unread {
+  color: #203b2b;
+}
+
+.notification-item.is-unread h3,
+.notification-item.is-unread p,
+.notification-item.is-unread span,
+.notification-item.is-unread small {
+  color: #203b2b !important;
+}
+
+.notification-item.is-unread .notification-category,
+.notification-item.is-unread .notification-time {
+  color: #526657 !important;
+}
