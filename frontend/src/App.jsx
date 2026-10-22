@@ -121,6 +121,10 @@ aiChatTitle: "FarmTwin AI",
 aiChatDescription: "Your intelligent farming companion",
 aiChatHelp: "Ask questions about crops, soil, irrigation, pests, and farming practices.",
 openChatbot: "Open Chatbot",
+voiceAssistant: "Voice Assistant",
+voiceAssistantDescription: "Speak naturally and get spoken answers to your farming questions.",
+openVoiceAssistant: "Open Voice Assistant",
+aiChatTitle: "FarmTwin AI",
 
   },
 
@@ -234,6 +238,10 @@ aiChatTitle: "FarmTwin AI",
 aiChatDescription: "आपका स्मार्ट खेती सहायक",
 aiChatHelp: "फसलों, मिट्टी, सिंचाई, कीटों और खेती के तरीकों के बारे में सवाल पूछें।",
 openChatbot: "चैटबॉट खोलें",
+voiceAssistant: "वॉइस असिस्टेंट",
+voiceAssistantDescription: "स्वाभाविक रूप से बोलें और खेती से जुड़े सवालों के जवाब आवाज़ में पाएं।",
+openVoiceAssistant: "वॉइस असिस्टेंट खोलें",
+aiChatTitle: "फार्मट्विन AI",
   },
 
   Kannada: {
@@ -346,6 +354,10 @@ aiChatTitle: "FarmTwin AI",
 aiChatDescription: "ನಿಮ್ಮ ಬುದ್ಧಿವಂತ ಕೃಷಿ ಸಹಾಯಕ",
 aiChatHelp: "ಬೆಳೆಗಳು, ಮಣ್ಣು, ನೀರಾವರಿ, ಕೀಟಗಳು ಮತ್ತು ಕೃಷಿ ವಿಧಾನಗಳ ಬಗ್ಗೆ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಿ.",
 openChatbot: "ಚಾಟ್‌ಬಾಟ್ ತೆರೆಯಿರಿ",
+voiceAssistant: "ಧ್ವನಿ ಸಹಾಯಕ",
+voiceAssistantDescription: "ಸಹಜವಾಗಿ ಮಾತನಾಡಿ, ಕೃಷಿ ಪ್ರಶ್ನೆಗಳಿಗೆ ಧ್ವನಿಯ ಮೂಲಕ ಉತ್ತರಗಳನ್ನು ಪಡೆಯಿರಿ.",
+openVoiceAssistant: "ಧ್ವನಿ ಸಹಾಯಕವನ್ನು ತೆರೆಯಿರಿ",
+aiChatTitle: "ಫಾರ್ಮ್‌ಟ್ವಿನ್ AI",
   },
 
   Tamil: {
@@ -458,6 +470,10 @@ aiChatTitle: "FarmTwin AI",
 aiChatDescription: "உங்கள் புத்திசாலித்தனமான விவசாய உதவியாளர்",
 aiChatHelp: "பயிர்கள், மண், நீர்ப்பாசனம், பூச்சிகள் மற்றும் விவசாய முறைகள் பற்றி கேள்விகள் கேளுங்கள்.",
 openChatbot: "சாட்பாட்டைத் திறக்கவும்",
+voiceAssistant: "குரல் உதவியாளர்",
+voiceAssistantDescription: "இயல்பாகப் பேசுங்கள்; விவசாயக் கேள்விகளுக்கான பதில்களை குரலில் பெறுங்கள்.",
+openVoiceAssistant: "குரல் உதவியாளரைத் திறக்கவும்",
+aiChatTitle: "ஃபார்ம்ட்வின் AI",
   },
 
   Telugu: {
@@ -570,6 +586,10 @@ aiChatTitle: "FarmTwin AI",
 aiChatDescription: "మీ తెలివైన వ్యవసాయ సహాయకుడు",
 aiChatHelp: "పంటలు, నేల, నీటిపారుదల, తెగుళ్లు మరియు వ్యవసాయ పద్ధతుల గురించి ప్రశ్నలు అడగండి.",
 openChatbot: "చాట్‌బాట్ తెరవండి",
+voiceAssistant: "వాయిస్ అసిస్టెంట్",
+voiceAssistantDescription: "సహజంగా మాట్లాడి, వ్యవసాయ ప్రశ్నలకు వాయిస్ ద్వారా సమాధానాలు పొందండి.",
+openVoiceAssistant: "వాయిస్ అసిస్టెంట్‌ను తెరవండి",
+aiChatTitle: "ఫార్మ్‌ట్విన్ AI",
   },
 
   Malayalam: {
@@ -682,6 +702,10 @@ aiChatTitle: "FarmTwin AI",
 aiChatDescription: "നിങ്ങളുടെ ബുദ്ധിമാനായ കാർഷിക സഹായി",
 aiChatHelp: "വിളകൾ, മണ്ണ്, ജലസേചനം, കീടങ്ങൾ, കൃഷിരീതികൾ എന്നിവയെക്കുറിച്ച് ചോദ്യങ്ങൾ ചോദിക്കൂ.",
 openChatbot: "ചാറ്റ്ബോട്ട് തുറക്കുക",
+voiceAssistant: "വോയ്സ് അസിസ്റ്റന്റ്",
+voiceAssistantDescription: "സ്വാഭാവികമായി സംസാരിച്ച് കൃഷിയുമായി ബന്ധപ്പെട്ട ചോദ്യങ്ങൾക്ക് ശബ്ദത്തിലൂടെ മറുപടികൾ നേടൂ.",
+openVoiceAssistant: "വോയ്സ് അസിസ്റ്റന്റ് തുറക്കുക",
+aiChatTitle: "ഫാംട്വിൻ AI",
   }
 };
 
@@ -785,6 +809,14 @@ const [chatMessages, setChatMessages] = useState([]);
 const [chatLoading, setChatLoading] = useState(false);
 const [chatError, setChatError] = useState('');
 
+const [voiceLanguage, setVoiceLanguage] = useState('en-IN');
+const [voiceTranscript, setVoiceTranscript] = useState('');
+const [voiceAnswer, setVoiceAnswer] = useState('');
+const [voiceListening, setVoiceListening] = useState(false);
+const [voiceLoading, setVoiceLoading] = useState(false);
+const [voiceError, setVoiceError] = useState('');
+const [voiceSpeaking, setVoiceSpeaking] = useState(false);
+
 async function sendChatMessage(event) {
   event.preventDefault();
 
@@ -841,6 +873,151 @@ async function sendChatMessage(event) {
   } finally {
     setChatLoading(false);
   }
+}
+
+function startVoiceListening() {
+  const SpeechRecognition =
+    window.SpeechRecognition ||
+    window.webkitSpeechRecognition;
+
+  if (!SpeechRecognition) {
+    setVoiceError(
+      'Speech recognition is not supported in this browser. Please try Google Chrome.'
+    );
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+  setVoiceError('');
+  setVoiceTranscript('');
+  setVoiceAnswer('');
+
+  const recognition = new SpeechRecognition();
+  recognition.lang = voiceLanguage;
+  recognition.continuous = false;
+  recognition.interimResults = false;
+  recognition.maxAlternatives = 1;
+
+  recognition.onstart = () => {
+    setVoiceListening(true);
+  };
+
+  recognition.onresult = (event) => {
+    const transcript = event.results[0][0].transcript;
+    setVoiceTranscript(transcript);
+    askVoiceAssistant(transcript);
+  };
+
+  recognition.onerror = (event) => {
+    setVoiceListening(false);
+
+    if (event.error === 'not-allowed') {
+      setVoiceError(
+        'Microphone access was denied. Allow microphone access in your browser settings.'
+      );
+    } else if (event.error !== 'no-speech') {
+      setVoiceError(
+        'Could not recognize your speech. Please try again.'
+      );
+    } else {
+      setVoiceError('No speech detected. Please try again.');
+    }
+  };
+
+  recognition.onend = () => {
+    setVoiceListening(false);
+  };
+
+  try {
+    recognition.start();
+  } catch {
+    setVoiceListening(false);
+    setVoiceError('Could not start the microphone. Please try again.');
+  }
+}
+
+async function askVoiceAssistant(message) {
+  setVoiceLoading(true);
+  setVoiceError('');
+  setVoiceAnswer('');
+
+  try {
+    const response = await fetch(
+      'http://127.0.0.1:8000/api/farming-chat',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+       body: JSON.stringify({
+  message,
+  module: 'Voice Assistant',
+  response_language: voiceLanguage === 'en-IN'
+    ? 'English'
+    : voiceLanguage === 'hi-IN'
+      ? 'Hindi'
+      : voiceLanguage === 'kn-IN'
+        ? 'Kannada'
+        : voiceLanguage === 'ta-IN'
+          ? 'Tamil'
+          : voiceLanguage === 'te-IN'
+            ? 'Telugu'
+            : voiceLanguage === 'ml-IN'
+              ? 'Malayalam'
+              : 'English',
+  context: {
+    crop: 'Tomato',
+    location: weather?.location || 'Bengaluru',
+    temperature_c: weather?.temperature_c ?? null,
+  },
+}),
+      }
+    );
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(
+        typeof data.detail === 'string'
+          ? data.detail
+          : 'The voice assistant could not answer.'
+      );
+    }
+
+    setVoiceAnswer(data.answer);
+    speakVoiceAnswer(data.answer);
+  } catch (error) {
+    setVoiceError(
+      error.message || 'Could not connect to the farming assistant.'
+    );
+  } finally {
+    setVoiceLoading(false);
+  }
+}
+
+function speakVoiceAnswer(text) {
+  if (!('speechSynthesis' in window)) {
+    setVoiceError(
+      'Spoken responses are not supported in this browser.'
+    );
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = voiceLanguage;
+
+  utterance.onstart = () => setVoiceSpeaking(true);
+  utterance.onend = () => setVoiceSpeaking(false);
+  utterance.onerror = () => setVoiceSpeaking(false);
+
+  window.speechSynthesis.speak(utterance);
+}
+
+function stopVoiceAnswer() {
+  window.speechSynthesis.cancel();
+  setVoiceSpeaking(false);
 }
 
 
@@ -1309,66 +1486,38 @@ if (!authToken || !authUser) {
     </section>
 
     <section className="content-card chatbot-shortcut">
-      <div className="chatbot-shortcut-icon">🤖</div>
+  <div className="chatbot-shortcut-icon">🤖</div>
 
-      <div className="chatbot-shortcut-content">
-        <h2>{t.aiChatTitle}</h2>
-        <p>{t.aiChatHelp}</p>
-      </div>
+  <div className="chatbot-shortcut-content">
+    <h2>{t.aiChatTitle}</h2>
+    <p>{t.aiChatHelp}</p>
+  </div>
 
-      <button
-        type="button"
-        className="new-chat-btn"
-        onClick={() => setActivePage('AI Chatbot')}
-      >
-        {t.openChatbot} →
-      </button>
-    </section>
+  <button
+    type="button"
+    className="new-chat-btn"
+    onClick={() => setActivePage('AI Chatbot')}
+  >
+    {t.openChatbot} →
+  </button>
+</section>
 
+<section className="content-card chatbot-shortcut">
+  <div className="chatbot-shortcut-icon">🎙️</div>
 
-    <section className="content-card">
-      <h2>{t.farmOverview}</h2>
+  <div className="chatbot-shortcut-content">
+   <h2>{t.voiceAssistant}</h2>
+<p>{t.voiceAssistantDescription}</p>
+  </div>
 
-      <p>
-        <strong>{t.weather}:</strong>{' '}
-        {weather
-          ? t.weatherAvailable
-          : weatherLoading
-            ? t.loadingWeather
-            : t.dataUnavailable}
-      </p>
-
-      <p>
-        <strong>{t.cropAnalysisStatus}:</strong>{' '}
-        {weedResult
-          ? t.weedResultsAvailable
-          : t.noWeedAnalysis}
-      </p>
-
-      <p>
-        <strong>{t.cropRecommendationStatus}:</strong>{' '}
-        {recommendations
-          ? t.recommendationsAvailable
-          : t.runCropRecommendation}
-      </p>
-
-      <p>
-        <strong>{t.marketDataStatus}:</strong>{' '}
-        {marketData
-          ? `${marketData.commodity} ${t.pricesLoaded}`
-          : t.selectCommodity}
-      </p>
-
-      {weather?.observed_at && (
-        <p className="stat-detail">
-          {t.weatherObservation}: {weather.observed_at}
-        </p>
-      )}
-
-      {weatherError && (
-        <p className="weather-error">{weatherError}</p>
-      )}
-    </section>
+  <button
+    type="button"
+    className="new-chat-btn"
+    onClick={() => setActivePage('Voice Assistant')}
+  >
+    {t.openVoiceAssistant} →
+  </button>
+</section>
   </>
 )}
 
@@ -2027,6 +2176,125 @@ if (!authToken || !authUser) {
       FarmTwin AI can make mistakes. Verify important farming
       decisions with reliable agricultural guidance.
     </p>
+  </section>
+)}
+
+{activePage === 'Voice Assistant' && (
+  <section className="content-card ai-chat-page voice-assistant-page">
+    <div className="ai-chat-header">
+      <div className="ai-chat-brand">
+        <div className="ai-chat-logo">🎙️</div>
+        <div>
+          <h2>FarmTwin Voice Assistant</h2>
+          <p>Talk naturally with your farming companion</p>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        className="ai-new-chat"
+        onClick={() => {
+          stopVoiceAnswer();
+          setVoiceTranscript('');
+          setVoiceAnswer('');
+          setVoiceError('');
+        }}
+      >
+        ＋ New Conversation
+      </button>
+    </div>
+
+    <div className="voice-assistant-content">
+      <label htmlFor="voice-language">Conversation language</label>
+
+      <select
+        id="voice-language"
+        value={voiceLanguage}
+        onChange={(event) => {
+          stopVoiceAnswer();
+          setVoiceLanguage(event.target.value);
+        }}
+      >
+        <option value="en-IN">English</option>
+        <option value="hi-IN">Hindi</option>
+        <option value="kn-IN">Kannada</option>
+        <option value="ta-IN">Tamil</option>
+        <option value="te-IN">Telugu</option>
+        <option value="ml-IN">Malayalam</option>
+      </select>
+
+      <div className="voice-microphone-area">
+        <button
+          type="button"
+          className={`voice-microphone ${
+            voiceListening ? 'voice-microphone-active' : ''
+          }`}
+          onClick={startVoiceListening}
+          disabled={voiceListening || voiceLoading}
+          aria-label="Start speaking"
+        >
+          {voiceListening ? '🔴' : '🎙️'}
+        </button>
+
+        <h3>
+          {voiceListening
+            ? 'Listening to you...'
+            : voiceLoading
+              ? 'Thinking about your question...'
+              : voiceSpeaking
+                ? 'Speaking the answer...'
+                : 'Tap the microphone to speak'}
+        </h3>
+
+        <p>
+          Ask about crops, soil, irrigation, pests, weather, or market prices.
+        </p>
+
+        {voiceSpeaking && (
+          <button
+            type="button"
+            className="new-chat-btn"
+            onClick={stopVoiceAnswer}
+          >
+            Stop speaking
+          </button>
+        )}
+      </div>
+
+      {voiceTranscript && (
+        <div className="voice-result-card">
+          <h3>🗣️ You said</h3>
+          <p>{voiceTranscript}</p>
+        </div>
+      )}
+
+      {voiceLoading && (
+        <div className="voice-result-card">
+          <p>🌱 Preparing your farming guidance...</p>
+        </div>
+      )}
+
+      {voiceAnswer && (
+        <div className="voice-result-card">
+          <h3>✦ FarmTwin AI response</h3>
+          <p>{voiceAnswer}</p>
+
+          <button
+            type="button"
+            className="new-chat-btn"
+            onClick={() => speakVoiceAnswer(voiceAnswer)}
+          >
+            🔊 Play answer again
+          </button>
+        </div>
+      )}
+
+      {voiceError && (
+        <div className="ai-chat-error" role="alert">
+          {voiceError}
+        </div>
+      )}
+    </div>
   </section>
 )}
 

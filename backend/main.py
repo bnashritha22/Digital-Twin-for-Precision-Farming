@@ -753,6 +753,7 @@ class FarmingChatRequest(BaseModel):
     message: str
     module: str = "General"
     context: dict | None = None
+    response_language: str | None = None
 
 
 
@@ -779,6 +780,9 @@ Current FarmTwin module: {request.module}
 
 Available farm data:
 {request.context or "No farm data provided."}
+
+Required response language:
+{request.response_language or "Respond in the same language as the user's question."}
 
 User question:
 {request.message}
