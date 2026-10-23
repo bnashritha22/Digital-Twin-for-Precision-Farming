@@ -834,7 +834,7 @@ async function sendChatMessage(event) {
 
   try {
     const response = await fetch(
-      'http://127.0.0.1:8000/api/farming-chat',
+      'https://farmtwin-backend-zlsp.onrender.com/api/farming-chat',
       {
         method: 'POST',
         headers: {
@@ -943,7 +943,7 @@ async function askVoiceAssistant(message) {
 
   try {
     const response = await fetch(
-      'http://127.0.0.1:8000/api/farming-chat',
+      'https://farmtwin-backend-zlsp.onrender.com/api/farming-chat',
       {
         method: 'POST',
         headers: {
@@ -1038,7 +1038,7 @@ function stopVoiceAnswer() {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8000/api/farming-chat',
+        'https://farmtwin-backend-zlsp.onrender.com/api/farming-chat',
         {
           method: 'POST',
           headers: {
@@ -1087,7 +1087,7 @@ function stopVoiceAnswer() {
 
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/status')
+    fetch('https://farmtwin-backend-zlsp.onrender.com/api/status')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Request failed');
@@ -1114,7 +1114,7 @@ function stopVoiceAnswer() {
 
       try {
         const response = await fetch(
-          'http://127.0.0.1:8000/api/weather'
+          'https://farmtwin-backend-zlsp.onrender.com/api/weather'
         );
 
         if (!response.ok) {
@@ -1201,7 +1201,7 @@ async function detectWeeds(event) {
     formData.append('file', weedFile);
 
     const response = await fetch(
-      'http://127.0.0.1:8000/api/weed-detection',
+      'https://farmtwin-backend-zlsp.onrender.com/api/weed-detection',
       {
         method: 'POST',
         body: formData,
@@ -1246,7 +1246,7 @@ async function getRecommendations(event) {
 
   try {
     const response = await fetch(
-      'http://127.0.0.1:8000/api/crop-recommendation',
+      'https://farmtwin-backend-zlsp.onrender.com/api/crop-recommendation',
       {
         method: 'POST',
         headers: {
@@ -1884,7 +1884,7 @@ if (!authToken || !authUser) {
 
         try {
           const response = await fetch(
-            `http://127.0.0.1:8000/api/market-prices-live?state=Karnataka&commodity=${encodeURIComponent(marketCommodity)}`
+            `https://farmtwin-backend-zlsp.onrender.com/api/market-prices-live?state=Karnataka&commodity=${encodeURIComponent(marketCommodity)}`
           );
 
           const result = await response.json();
@@ -2310,7 +2310,7 @@ if (!authToken || !authUser) {
     onLogout={async () => {
       try {
         if (authToken) {
-          await fetch('http://127.0.0.1:8000/api/auth/logout', {
+          await fetch('https://farmtwin-backend-zlsp.onrender.com/api/auth/logout', {
             method: 'POST',
             headers: {
               Authorization: `Bearer ${authToken}`,
