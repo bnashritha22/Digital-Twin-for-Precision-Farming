@@ -27,12 +27,13 @@ app.include_router(auth_router)
 
 app.add_middleware(
     CORSMiddleware,
-   allow_origins=[
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "http://localhost:5175",
-    "http://localhost:5176",
-],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "http://localhost:5175",
+        "http://localhost:5176",
+        "https://digital-twin-for-precision-farming.vercel.app",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
